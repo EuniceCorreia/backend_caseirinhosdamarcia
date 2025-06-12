@@ -1,0 +1,15 @@
+2025-06-07 17:01:10.359487-03:00 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PRODUTOS" not found (this database is empty); SQL statement:
+SELECT * FROM PRODUTOS [42104-232]
+2025-06-07 17:04:34.951196-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PRODUTO" not found (this database is empty); SQL statement:
+SELECT * FROM Produto [42104-232]
+2025-06-07 17:04:47.467058-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PRODUTO" not found (this database is empty); SQL statement:
+SELECT * FROM PRODUTO [42104-232]
+2025-06-07 17:11:38.784215-03:00 jdbc[15]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PRODUTO" not found (this database is empty); SQL statement:
+SELECT * FROM Produto [42104-232]
+2025-06-07 17:11:40.732939-03:00 jdbc[15]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PRODUTO" not found (this database is empty); SQL statement:
+SELECT * FROM Produto [42104-232]

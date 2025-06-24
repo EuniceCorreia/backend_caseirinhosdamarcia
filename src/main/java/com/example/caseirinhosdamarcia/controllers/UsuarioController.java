@@ -1,5 +1,6 @@
 package com.example.caseirinhosdamarcia.controllers;
 import com.example.caseirinhosdamarcia.dtos.UsuarioDTO;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import com.example.caseirinhosdamarcia.services.UsuarioService;
 import org.springframework.data.domain.Page;
@@ -7,7 +8,7 @@ import org.springframework.data.domain.Pageable;
 
 
 import java.util.UUID;
-
+@CrossOrigin(origins = "http://localhost:5173")
 @RestController
 @RequestMapping("/usuario")
 public class UsuarioController {
@@ -42,3 +43,4 @@ public class UsuarioController {
         return usuarioService.deleteUsuario(id);
     }
 }
+    

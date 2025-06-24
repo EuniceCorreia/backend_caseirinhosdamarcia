@@ -56,4 +56,10 @@ public class UsuarioService {
         usuarioRepository.delete(usuario);
         return usuarioMapper.toDTO(usuario);
     }
+    public UsuarioDTO verificarLogin(String login, String senha) {
+        Usuario usuario = usuarioRepository.findByLoginAndSenha(login, senha)
+                .orElseThrow(() -> new RuntimeException("Login ou senha inválidos"));
+        return usuarioMapper.toDTO(usuario);
+    }
+
 }

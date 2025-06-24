@@ -13,3 +13,33 @@ SELECT * FROM Produto [42104-232]
 2025-06-07 17:11:40.732939-03:00 jdbc[15]: exception
 org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PRODUTO" not found (this database is empty); SQL statement:
 SELECT * FROM Produto [42104-232]
+2025-06-24 17:42:53.145352-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "IMAGE CHARACTER VARYING(255)": "'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAA9lBMVEX//... (5838)"; SQL statement:
+insert into produto (descricao_modal,image,peso,price,title,type,id_produto) values (?,?,?,?,?,?,?) [22001-232]
+2025-06-24 17:43:47.046666-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "IMAGE CHARACTER VARYING(255)": "'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAA9lBMVEX//... (5838)"; SQL statement:
+insert into produto (descricao_modal,image,peso,price,title,type,id_produto) values (?,?,?,?,?,?,?) [22001-232]
+2025-06-24 17:47:51.112105-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "IMAGE CHARACTER VARYING(255)": "'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAA9lBMVEX//... (5838)"; SQL statement:
+insert into produto (descricao_modal,image,peso,price,title,type,id_produto) values (?,?,?,?,?,?,?) [22001-232]
+2025-06-24 17:52:44.412604-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "IMAGE CHARACTER VARYING(255)": "'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAA9lBMVEX//... (5838)"; SQL statement:
+insert into produto (descricao_modal,image,peso,price,title,type,id_produto) values (?,?,?,?,?,?,?) [22001-232]
+2025-06-24 17:55:48.138775-03:00 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "IMAGE CHARACTER VARYING(255)": "'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAA9lBMVEX//... (5838)"; SQL statement:
+insert into produto (descricao_modal,image,peso,price,title,type,id_produto) values (?,?,?,?,?,?,?) [22001-232]
+2025-06-24 17:55:58.247417-03:00 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "IMAGE CHARACTER VARYING(255)": "'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAA9lBMVEX//... (5838)"; SQL statement:
+insert into produto (descricao_modal,image,peso,price,title,type,id_produto) values (?,?,?,?,?,?,?) [22001-232]
+2025-06-24 17:56:02.276968-03:00 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "IMAGE CHARACTER VARYING(255)": "'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAA9lBMVEX//... (5838)"; SQL statement:
+insert into produto (descricao_modal,image,peso,price,title,type,id_produto) values (?,?,?,?,?,?,?) [22001-232]
+2025-06-24 17:59:38.401766-03:00 jdbc[16]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "IMAGE CHARACTER VARYING(255)": "'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAA9lBMVEX//... (5838)"; SQL statement:
+insert into produto (descricao_modal,image,peso,price,title,type,id_produto) values (?,?,?,?,?,?,?) [22001-232]
+2025-06-24 18:04:19.146867-03:00 jdbc[22]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "IMAGE CHARACTER VARYING(255)": "'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMTEhUTExMVFRUWFhgY... (12939)"; SQL statement:
+insert into produto (descricao_modal,image,peso,price,title,type,id_produto) values (?,?,?,?,?,?,?) [22001-232]
+2025-06-24 18:17:00.797018-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "IMAGE CHARACTER VARYING(255)": "'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMTEhUTExMVFRUWFhgY... (12939)"; SQL statement:
+insert into produto (descricao_modal,image,peso,price,title,type,id_produto) values (?,?,?,?,?,?,?) [22001-232]

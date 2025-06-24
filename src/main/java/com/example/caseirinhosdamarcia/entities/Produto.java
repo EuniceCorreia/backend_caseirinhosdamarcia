@@ -1,6 +1,7 @@
 package com.example.caseirinhosdamarcia.entities;
 
 import jakarta.persistence.*;
+import jakarta.persistence.Lob;
 
 import java.util.UUID;
 
@@ -15,6 +16,8 @@ public class Produto {
     private Double peso;
     private Double price;
     private String descricaoModal;
+    @Lob
+    @Column(name = "image")
     private String image;
 
     public UUID getId_produto() {

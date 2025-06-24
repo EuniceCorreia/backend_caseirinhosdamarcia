@@ -6,7 +6,7 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.web.bind.annotation.*;
 import com.example.caseirinhosdamarcia.services.ProdutoService;
 import java.util.UUID;
-
+@CrossOrigin(origins = "http://localhost:5173")
 @RestController
 @RequestMapping("/produto")
 public class ProdutoController {

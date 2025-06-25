@@ -1,6 +1,8 @@
 package com.example.caseirinhosdamarcia.controllers;
 
+import com.example.caseirinhosdamarcia.dtos.ItemCarrinhoCreateDTO;
 import com.example.caseirinhosdamarcia.dtos.ItemCarrinhoDTO;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import com.example.caseirinhosdamarcia.services.ItemCarrinhoService;
 
@@ -32,8 +34,14 @@ public class ItemCarrinhoController {
     }
 
     @PostMapping
-    public ItemCarrinhoDTO createItemCarrinho(@RequestBody ItemCarrinhoDTO itemCarrinhoDTO) {
-        return itemCarrinhoService.createItemCarrinho(itemCarrinhoDTO);
+    public ResponseEntity<ItemCarrinhoDTO> createItem(@RequestBody ItemCarrinhoCreateDTO createDTO) {
+        // log dos IDs para debug
+        System.out.println("idProduto: " + createDTO.idProduto());
+        System.out.println("idUsuario: " + createDTO.idUsuario());
+        System.out.println("quantidade: " + createDTO.quantidade());
+
+        ItemCarrinhoDTO itemCriado = itemCarrinhoService.createItemCarrinho(createDTO);
+        return ResponseEntity.ok(itemCriado);
     }
 
     @PutMapping("/{id}")
@@ -46,4 +54,3 @@ public class ItemCarrinhoController {
         return itemCarrinhoService.deleteItemCarrinho(id);
     }
 }
-
